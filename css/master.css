@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Lobster+Two|Quicksand|Sacramento|Text+Me+One');
+/*
+Font we can use from Google font.
+
+font-family: 'Quicksand', sans-serif;
+font-family: 'Text Me One', sans-serif;
+font-family: 'Lobster Two', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Julius Sans One', sans-serif;
+*/
+.navigation{
+  font-family: 'Quicksand', sans-serif;
+}
+h1{
+  font-family: 'Julius Sans One', sans-serif;
+}
