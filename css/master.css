@@ -15,3 +15,9 @@ font-family: 'Julius Sans One', sans-serif;
 h1{
   font-family: 'Julius Sans One', sans-serif;
 }
+.carousel-inner{
+  height: 700px;
+}
+.carousel-item img {
+  min-height: 700px;
+}
