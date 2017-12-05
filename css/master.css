@@ -17,7 +17,9 @@ h1{
 }
 .carousel-inner{
   height: 700px;
+
 }
 .carousel-item img {
-  min-height: 700px;
+  min-height: 100%;
+  min-width: 100%;
 }
