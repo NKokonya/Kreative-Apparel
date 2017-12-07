@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Lobster+Two|Quicksand|Sacramento|Text+Me+One');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Lobster+Two|Quicksand|Sacramento|Text+Me+One|Lobster');
 /*
 Font we can use from Google font.
 
 font-family: 'Quicksand', sans-serif;
 font-family: 'Text Me One', sans-serif;
 font-family: 'Lobster Two', cursive;
+font-family: 'Lobster', cursive;
 font-family: 'Sacramento', cursive;
 font-family: 'Julius Sans One', sans-serif;
 */
@@ -18,8 +19,57 @@ h1{
 .carousel-inner{
   height: 700px;
 }
+/*Zoom Effect*/
+.zoom{
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+  position:relative;
+  overflow: hidden;
+}
+.zoom:hover img{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+}
+.zoom img{
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+}
+.overlay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  opacity: 0;
+  background: rgba(39, 42, 43, 0.7);
+  transition: opacity 200ms ease-in-out;
+  border-radius: 4px;
+  margin:  0 0 -15px;
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  font-size: 100px;
+}
+.overlay:hover{
+  opacity: 1;
+}
 .carousel-item img {
-  min-height: 700px;
+  min-height: 100%;
+  min-width: 100%;
+}
+.about{
+  margin-top: 30px;
+  background-color: #00ffcc;
+  height: 200px;
+  font-family: 'Julius Sans One', sans-serif;
+  color: #fff;
+}
+.footer{
+  margin-top: 30px;
+  background-color: #4d4d4d;
+  height: 200px;
+  font-family: 'Julius Sans One', sans-serif;
+  color: #fff;
 }
 .fa {
   padding:20px;
