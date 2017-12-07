@@ -48,6 +48,7 @@ h1{
   margin:  0 0 -15px;
   color: #fff;
   font-family: 'Lobster', cursive;
+  font-size: 100px;
 }
 .overlay:hover{
   opacity: 1;
@@ -57,10 +58,16 @@ h1{
   min-width: 100%;
 }
 .about{
+  margin-top: 30px;
   background-color: #00ffcc;
   height: 200px;
+  font-family: 'Julius Sans One', sans-serif;
+  color: #fff;
 }
 .footer{
+  margin-top: 30px;
   background-color: #4d4d4d;
   height: 200px;
+  font-family: 'Julius Sans One', sans-serif;
+  color: #fff;
 }
