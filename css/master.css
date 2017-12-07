@@ -21,3 +21,50 @@ h1{
 .carousel-item img {
   min-height: 700px;
 }
+.fa {
+  padding:20px;
+  font-size:30px;
+  text-align:center;
+  text-decoration:none;
+  margin: 5px 2px;
+  border-radius:50%;
+}
+.fa:hover {
+  opacity:0.7
+  cursor:pointer;
+}
+.fa-facebook {
+  background: #3B5998;
+  color:white;
+}
+.fa-twitter {
+  background:#55ACEE;
+  color:white;
+}
+.fa-linkedin {
+  background:cyan;
+  color:white;
+}
+.fa-instagram {
+  background:#125688;
+  color:white;
+}
+.fa-foursquare {
+  background:#45bbff;
+  color:white;
+}
+.soial {
+  display: inline-block;
+  text-align: center;
+}
+.wrapperFull {
+  color:gray;
+}
+.wrapper {
+  color:Seagreen;
+}
+footer {
+  background-color: black;
+  margin-top: 50px;
+  
+}
