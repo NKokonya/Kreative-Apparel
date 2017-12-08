@@ -17,7 +17,7 @@ h1{
   font-family: 'Julius Sans One', sans-serif;
 }
 .carousel-inner{
-  height: 700px;
+  max-height: 700px;
 }
 /*Zoom Effect*/
 .zoom{
