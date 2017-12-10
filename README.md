@@ -33,11 +33,11 @@ Click [here](https://samngigi.github.io/mpft-ip/) to see the site.
 
 #### Credits
 
-Nicole Kokonya
-
 Milla Tevin
 
 Sam Ngigi
+
+Nicole Kokonya
 ------------
 
 License
