@@ -8,10 +8,7 @@ $(document).ready(function() {
     $(this).css("width", w);
   });
 };
-
 sizeTheOverlays();
-
-
 var width = $(window).width();
 $(window).resize(function(){
    if($(this).width() != width){
@@ -19,4 +16,6 @@ $(window).resize(function(){
       sizeTheOverlays();
    }
 });
+/*For the samrt cart*/
+$('#smartcart').smartCart();
 });
