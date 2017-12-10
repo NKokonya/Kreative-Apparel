@@ -117,3 +117,13 @@ h1{
 .h3{
   color: #fff;
 }
+.checkout{
+  position: fixed;
+  margin-left: 65%;
+}
+.shop{
+  font-family: 'Quicksand', sans-serif;
+}
+.card-header{
+  font-family: 'Julius Sans One', sans-serif;
+}
