@@ -206,18 +206,10 @@
                     return false;
                 }
                 e.preventDefault();
-                /* $('.sc-cart-item-list > .sc-cart-item', this.cart_element).fadeOut("normal", function () {
+                $('.sc-cart-item-list > .sc-cart-item', this.cart_element).fadeOut("normal", function () {
                      $(this).remove();
                      mi._clearCart();
                      mi._hasCartChange();
-                 });*/
-                 $('.sc-cart-item-list > .sc-cart-item', this.cart_element).fadeOut({
-                   duration:"normal",
-                   clear:function () {
-                     $(this).remove();
-                     mi._clearCart();
-                     mi._hasCartChange();
-                   }
                  });
             });
         },
