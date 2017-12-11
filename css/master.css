@@ -66,5 +66,9 @@ h1{
 footer {
   background-color: black;
   margin-top: 50px;
-  
+
+}
+.btn-default:hover{
+  background-color: orange;
+  cursor:pointer;
 }
