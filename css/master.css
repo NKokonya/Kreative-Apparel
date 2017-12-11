@@ -34,12 +34,20 @@ h1{
   transition: opacity 200ms ease-in-out;
   border-radius: 4px;
   margin:  0 0 -15px;
-  color: #fff;
-  font-family: 'Julius Sans One', sans-serif;
 }
-.overlay-carousel h1{
-  font-size: 100px;
+
+.try{
+  font-family: 'Sacramento', cursive;
+  font-size: 150px;
+  color:#fff;
+  top; 50%;
+  transform: translateY(-50);
   margin-bottom: 200px;
+}
+@media (max-width:600px) {
+  .try{
+    display: none;
+  }
 }
 /*Zoom Effect*/
 .zoom{
