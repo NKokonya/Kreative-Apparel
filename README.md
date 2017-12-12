@@ -1,4 +1,4 @@
-![Kreative Apparel](anitas-kitchen.png)
+![Kreative Apparel](k-a.png)
 
 
 Kreative Apparel
@@ -27,7 +27,7 @@ This site was build using
 6.  some `PHP`
 
 
-Click [here](https://samngigi.github.io/mpft-ip/) to see the site.
+Click [here]() to see the site.
 
 ------------
 
