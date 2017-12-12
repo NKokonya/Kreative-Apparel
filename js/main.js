@@ -20,4 +20,3 @@ $(window).resize(function(){
 $('#smartcart').smartCart();
 /*Need to figure out how to remove and clear the checkout form*/
 });
-e
