@@ -18,5 +18,5 @@ $(window).resize(function(){
 });
 /*For the samrt cart*/
 $('#smartcart').smartCart();
-/*Need to figure out how to remove and clear the checkout form*/
+/* Done!!Need to figure out how to remove and clear the checkout form*/
 });
