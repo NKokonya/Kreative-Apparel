@@ -197,7 +197,8 @@
                     return false;
                 }
                 e.preventDefault();
-                mi._submitCart();
+                // mi._submitCart();
+                prompt("You are about to pay for t-shirts from Kreative Apparel. Please confirm purchase by entering your M-pesa pin.");
             });
 
             // Cart clear event
